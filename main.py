@@ -7,7 +7,7 @@ from IPython.display import Image, display
 
 # 受け取ったURLにHTTPリクエストを行い、そのURLが存在する場合に辞書型データを返す関数（存在しない場合は空の辞書型データを返す）
 def request_data(url):
-  #エラーが発生すると思われるコード
+#エラーが発生すると思われるコード
   try:
     #URL取得
     response = urllib.request.urlopen(url)
